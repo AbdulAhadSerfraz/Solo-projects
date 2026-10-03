@@ -34,3 +34,10 @@ function add3guests() {
     resultGuest = resultGuest + 3;
     guestScore.textContent = resultGuest;
 }
+
+document.getElementById("home-increment").addEventListener("click", add1);
+document.getElementById("home-increment2").addEventListener("click", add2);
+document.getElementById("home-increment3").addEventListener("click", add3);
+document.getElementById("guest-increment").addEventListener("click", add1guest);
+document.getElementById("guest-increment2").addEventListener("click", add2guest);
+document.getElementById("guest-increment3").addEventListener("click", add3guests);
