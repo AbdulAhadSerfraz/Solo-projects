@@ -1,0 +1,125 @@
+
+body {
+    margin: 0;
+    background-color: #534caf;
+    color: white;
+    font-size: 80px;
+    margin-bottom: -50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+}
+
+
+#home-increment{ 
+    background-color: #534caf; 
+    border-radius: 4px;
+    border: 1px solid #fff;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+#home-increment2{ 
+    background-color: #534caf; 
+    border-radius: 4px;
+    border: 1px solid #fff;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+#home-increment3{ 
+    background-color: #534caf; 
+    border-radius: 4px;
+    border: 1px solid #fff;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+
+
+#guest-increment{ 
+    background-color: #534caf; 
+    border-radius: 4px;
+    border: 1px solid #fff;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+#guest-increment2{ 
+    background-color: #534caf; 
+    border-radius: 4px;
+    border: 1px solid #fff;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+#guest-increment3{ 
+    background-color: #534caf; 
+    border-radius: 4px;
+    border: 1px solid #fff;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+#home-score, #guest-score {
+  font-family: 'DSEG7 Classic', monospace;
+  font-weight: 700;
+  font-size: 48px;
+  color: #ff3b3b;
+  background-color: #000;
+  /* padding: 5px 10px; */
+  border-radius: 6px;
+  letter-spacing: 4px;
+  margin-top: -10px;
+  margin-bottom: -12px;
+  text-shadow: 
+    0 0 5px #ff3b3b,
+    0 0 10px #ff3b3b,
+    0 0 20px #ff0000;
+    text-align: center;
+     /* 👇 added */
+  height: 200px;          /* or min-height: 120px */
+  display: flex;
+  align-items: center;    /* vertically center */
+  justify-content: center;/* horizontally center */
+}
+
+#home-title{
+    margin-bottom: -10px;
+}
+
+#guest-title{
+    margin-bottom: -10px;
+}
